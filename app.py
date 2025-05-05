@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn import metrics
 
-# Sidebar
+# Sidebar 1
 st.sidebar.title("DA PROJECT")
 app_mode = st.sidebar.selectbox("Select Page", ["HOME", "ABOUT", "CROP PREDICTION"], index=0)  # Set default index to 2
 
